@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import nditerSelectDimension from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter-select-dimension@esm/index.mjs';
+import nditerSelectDimension from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter-select-dimension@v0.1.1-esm/index.mjs';
 ```
 
 #### nditerSelectDimension( x, dim\[, options] )
@@ -182,7 +182,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import nditerSelectDimension from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter-select-dimension@esm/index.mjs';
+import nditerSelectDimension from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter-select-dimension@v0.1.1-esm/index.mjs';
 
 // Define an input array:
 var x = array( zeroTo( 27 ), {
